@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.top {
+    margin-bottom: 20px;
+}
+
+.top h2 {
+    color: #007bff;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile h2 {
+    color: #007bff;
+}
+
+.profile p {
+    color: #555;
+}
+
+.profile ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile li {
+    margin-bottom: 5px;
+}
+
+.one {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.two, .three {
+    margin-bottom: 20px;
+}
+
+.two h2, .three h2 {
+    color: #28a745;
+}
