@@ -58,3 +58,13 @@ body {
 .two h2, .three h2 {
     color: #28a745;
 }
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    width: 500px;
+    height: auto; 
+    display: inline-block; 
+}
