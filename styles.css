@@ -51,11 +51,13 @@ body {
     margin-bottom: 20px;
 }
 
-.two, .three {
+.two,
+.three {
     margin-bottom: 20px;
 }
 
-.two h2, .three h2 {
+.two h2,
+.three h2 {
     color: #28a745;
 }
 
@@ -65,6 +67,44 @@ body {
 
 .image-container img {
     width: 500px;
-    height: auto; 
-    display: inline-block; 
+    height: auto;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #007bff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #007bff;
+    color: white;
+}
+
+nav .active {
+    background-color: #007bff;
+    color: white;
 }
