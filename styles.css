@@ -16,6 +16,7 @@ body {
 }
 
 
+
 .top {
     margin-bottom: 20px;
 }
@@ -73,10 +74,7 @@ body {
 
 
 
-
-
-
-
+/* CSS related to navigation bar */
 
 nav ul {
     list-style-type: none;
@@ -108,3 +106,5 @@ nav .active {
     background-color: #007bff;
     color: white;
 }
+
+/* ----------------------------- */
