@@ -5,6 +5,30 @@ let gameActive = true;
 let currentPlayer = 'X';
 
 const winCond = [
+    /*  List of all the winning conditions.
+        For example:
+
+        [0, 1, 2]
+        |---------|---------|---------|
+        |    X    |    X    |    X    |
+        |---------|---------|---------|
+        |         |         |         |
+        |---------|---------|---------|
+        |         |         |         |
+        |---------|---------|---------|
+
+        Or
+
+        [0, 4, 8]
+        |---------|---------|---------|
+        |    X    |         |         |
+        |---------|---------|---------|
+        |         |    X    |         |
+        |---------|---------|---------|
+        |         |         |    X    |
+        |---------|---------|---------|
+    */
+
     [0, 1, 2],
     [3, 4, 5],
     [6, 7, 8],
@@ -16,12 +40,19 @@ const winCond = [
 ];
 
 function onClick(e) {
+    /*
+        Handles onClick events for the cells.
+    */
+
+    /* Gets index of cell */
     const index = e.target.dataset.index;
 
+    /* If the cell doesn't exist on the board, the game is not active or the current player is not the user (X), then return */
     if (board[index] !== null || !gameActive || currentPlayer !== 'X') {
         return;
     }
 
+    /* Set a X on the board at the cell with clicked (using the cell index) and also set the text on the cell itself to 'X' */
     board[index] = currentPlayer;
     e.target.textContent = currentPlayer;
 
