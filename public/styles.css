@@ -250,4 +250,24 @@ h1.title {
     z-index: 1000;
 }
 
+/* Leaderboard styles */
+#leaderboard {
+    margin-top: 20px;
+    background-color: #e0f7fa;
+    border: 1px solid #004d40;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+#leaderboard h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#leaderboard div {
+    font-size: 1.2rem;
+    color: #004d40;
+} 
 /* ----------------------------- */
