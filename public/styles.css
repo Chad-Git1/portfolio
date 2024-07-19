@@ -252,12 +252,12 @@ h1.title {
 
 /* Leaderboard styles */
 #leaderboard {
-    margin-top: 20px;
+    width: 200px;
+    margin: 20px auto;
     background-color: #e0f7fa;
     border: 1px solid #004d40;
     border-radius: 5px;
     padding: 10px;
-    width: 200px;
     text-align: center;
 }
 
